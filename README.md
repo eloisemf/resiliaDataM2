@@ -40,7 +40,9 @@ atributos;
  ![2](https://github.com/eloisemf/resiliaDataM2/assets/113704939/6038306e-dc5a-4222-b601-1a1515586a46)
 
 
+
 3: Quais alunos são da região da sudeste;
+
 ![3](https://github.com/eloisemf/resiliaDataM2/assets/113704939/589f7945-7b50-4626-950b-c1ecf0267675)
 
 4: Quais são os alunos matriculados em determinado módulo de um curso e em qual;
