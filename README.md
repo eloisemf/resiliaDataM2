@@ -31,8 +31,8 @@ perguntas ?
 
 4: Crie um trigger para ser disparado quando o atributo status de um estudante for atualizado e inserir um novo dado em uma tabela do log
 
-5: Quantos alunos de cada turma deixaram o curso?
+5: Quais alunos são da região da sudeste
 
-6: Qual é a média de notas dos alunos em determinado curso em um determinado módulo?
+6: Quais alunos podem ser jovem  aprendiz com 24 anos
 
-7: Qual é a quantidade de alunos por estados cadastrados no sistema?
+7: qual e a ementa que cada facilitador esta ligado
