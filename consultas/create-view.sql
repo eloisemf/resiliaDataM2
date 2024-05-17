@@ -1,5 +1,5 @@
--- view porcentagem de estudantes com status de evasão 
-agrupados por turma
+-- view porcentagem de estudantes com status de evasão agrupados por turma
+
 CREATE VIEW porcentagem_evasao_turma AS
 SELECT
     T.idTurma,
