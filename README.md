@@ -21,7 +21,16 @@ Este projeto visa modernizar o processo de armazenamento e gerenciamento de dado
   - 1.7. **Entidade: Grade Curricular**
       - Atributos: idCurso (Chave Estrangeira referencia Curso), idModulo (Chave Estrangeira referencia Modulo), quantidade.<br>      
 
-perguntas ?
+Perguntas basicas do projeto
+
+1. Gerar uma representação das entidades e seus respectivos atributos e relacionamentos;
+2. Criar a modelagem do banco de dados;
+3. Criar os scripts SQL para criação do banco de dados e das tabelas com seus respectivos
+atributos;
+4. Criar scripts SQL para inserção dos dados nas tabelas
+5. Executar consultas para gerar informações estratégicas para a área de ensino da Resilia.
+
+Perguntas estratégica do trabalho ?
 
 1. Qual é o número total de alunos matriculados em cada turma?
 
