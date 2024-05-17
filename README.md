@@ -1,8 +1,8 @@
 #  Programadores Cariocas | Data Analytics | Senac - Resilia
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&pause=1000&color=F2F71B&random=false&height=93&lines=Projeto+em+grupo+-+Modulo+2;Banco+de+dados+da+Resilia;Moderniza%C3%A7%C3%A3o+do+Processo+de+;Armazenamento+e+Gerenciamento" alt="Typing SVG" /></a> ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&pause=1000&color=F2F71B&random=false&height=93&lines=Projeto+em+grupo+-+Modulo+2;Banco+de+dados+da+Resilia;Moderniza%C3%A7%C3%A3o+do+Processo+de+;Armazenamento+e+Gerenciamento" alt="Typing SVG" /></a> 
 
-## Objetivo :bulb:
+## Objetivo :bulb: ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 Este projeto visa modernizar o processo de armazenamento e gerenciamento de dados do braço de ensino da Resilia, substituindo as planilhas por um sistema de banco de dados relacional. A seguir, detalharemos as etapas e entregáveis conforme solicitado.
 
 ### 1. Representação das Entidades, Atributos e Relacionamentos:
