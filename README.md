@@ -22,7 +22,7 @@ Este projeto visa modernizar o processo de armazenamento e gerenciamento de dado
       - Atributos: idCurso (Chave Estrangeira referencia Curso), idModulo (Chave Estrangeira referencia Modulo), quantidade.<br>
    
        ## Modelo do Banco de Dados
-        ![resilia-data-triggers (1)](https://github.com/eloisemf/resiliaDataM2/assets/113704939/351acc5f-3fa9-444d-a7bb-69eb2b27815d)
+    ![resilia-data-triggers(1)](https://github.com/eloisemf/resiliaDataM2/assets/113704939/351acc5f-3fa9-444d-a7bb-69eb2b27815d)
 
 
 ### Consultas basicas do projeto
