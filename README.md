@@ -30,6 +30,57 @@ atributos;
 4. Criar scripts SQL para inserção dos dados nas tabelas
 5. Executar consultas para gerar informações estratégicas para a área de ensino da Resilia.
 
+<details> 
+### Perguntas estratégica do trabalho ?
+
+1: Qual é o número total de alunos matriculados em cada turma?;
+![1](https://github.com/eloisemf/resiliaDataM2/assets/113704939/f1de22d3-4cad-419f-8e37-81738037ce4e)
+
+
+2: Quais são os facilitadores que estão ministrando aulas para um determinado;
+ ![2](https://github.com/eloisemf/resiliaDataM2/assets/113704939/6038306e-dc5a-4222-b601-1a1515586a46)
+
+
+
+3: Quais alunos são da região da sudeste;
+
+![3](https://github.com/eloisemf/resiliaDataM2/assets/113704939/589f7945-7b50-4626-950b-c1ecf0267675)
+
+4: Quais são os alunos matriculados em determinado módulo de um curso e em qual;
+![4](https://github.com/eloisemf/resiliaDataM2/assets/113704939/f900d194-1127-4a52-bd23-f914672fff80)
+
+
+5: Quais são os cursos que um determinado aluno está matriculado incluindo informações;
+![5](https://github.com/eloisemf/resiliaDataM2/assets/113704939/1ff1792f-7158-4c3c-b0ae-15a169885b34)
+
+6: Quantos alunos podem ser jovem  aprendiz com 24 anos;
+![6](https://github.com/eloisemf/resiliaDataM2/assets/113704939/cc8d3411-2822-450b-a532-d9127a2468a7)
+
+7: qual e a ementa que cada facilitador esta ligado;
+![7](https://github.com/eloisemf/resiliaDataM2/assets/113704939/55229813-f261-407b-a987-9d91da5ab76b)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</details>
 ### Perguntas estratégica do trabalho ?
 
 1: Qual é o número total de alunos matriculados em cada turma?;
