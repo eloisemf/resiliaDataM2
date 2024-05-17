@@ -1,4 +1,4 @@
-![1](https://github.com/eloisemf/resiliaDataM2/assets/113704939/d0aedb67-59b4-4db4-97ed-f472794bc67d)#  Programadores Cariocas | Data Analytics | Senac - Resilia
+Programadores Cariocas | Data Analytics | Senac - Resilia
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&pause=1000&color=F2F71B&random=false&height=93&lines=Projeto+em+grupo+-+Modulo+2;Banco+de+dados+da+Resilia;Moderniza%C3%A7%C3%A3o+do+Processo+de+;Armazenamento+e+Gerenciamento" alt="Typing SVG" /></a> 
 
