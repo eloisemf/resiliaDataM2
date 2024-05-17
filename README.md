@@ -52,7 +52,7 @@ atributos;
 5: Quais são os cursos que um determinado aluno está matriculado incluindo informações;
 ![5](https://github.com/eloisemf/resiliaDataM2/assets/113704939/1ff1792f-7158-4c3c-b0ae-15a169885b34)
 
-6: Quais alunos podem ser jovem  aprendiz com 24 anos;
+6: Quantos alunos podem ser jovem  aprendiz com 24 anos;
 ![6](https://github.com/eloisemf/resiliaDataM2/assets/113704939/cc8d3411-2822-450b-a532-d9127a2468a7)
 
 7: qual e a ementa que cada facilitador esta ligado;
