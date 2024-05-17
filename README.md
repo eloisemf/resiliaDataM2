@@ -19,7 +19,11 @@ Este projeto visa modernizar o processo de armazenamento e gerenciamento de dado
   - 1.6. **Entidade: Curso**
       - Atributos: idCurso (Chave Primária), matriz_curricular, duração, idTurma (Chave Estrangeira referencia Turma), idAluno (Chave Estrangeira referencia Aluno).<br>
   - 1.7. **Entidade: Grade Curricular**
-      - Atributos: idCurso (Chave Estrangeira referencia Curso), idModulo (Chave Estrangeira referencia Modulo), quantidade.<br>      
+      - Atributos: idCurso (Chave Estrangeira referencia Curso), idModulo (Chave Estrangeira referencia Modulo), quantidade.<br>
+   
+        Modelo do Banco de Dados
+        ![resilia-data-triggers (1)](https://github.com/eloisemf/resiliaDataM2/assets/113704939/351acc5f-3fa9-444d-a7bb-69eb2b27815d)
+
 
 ### Perguntas basicas do projeto
 
