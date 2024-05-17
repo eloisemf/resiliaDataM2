@@ -27,41 +27,39 @@ VALUES
 ('Manhã', 'A101', 30, 1, 1),
 ('Tarde', 'B201', 25, 1, 2),
 ('Noite', 'C301', 35, 2, 3),
-('Manhã', 'D401', 30, 2, 4),
-('Tarde', 'E501', 25, 3, 5);
+('Manhã', 'D401', 30, 2, 4);
+
+-- Inserção na tabela curso [3 dados nessa tabela]
+INSERT INTO curso (nome, matriz_curricular, duração, idTurma) 
+VALUES 
+('Engenharia de Software', 'Engenharia de Requisitos, Desenvolvimento Ágil, Testes de Software', '4 anos', 1 ),
+('Ciência de Dados', 'Mineração de Dados, Estatística, Machine Learning', '4 anos', 2 ),
+('Segurança da Informação', 'Criptografia, Análise de Riscos, Ethical Hacking', '4 anos', 3 );
 
 
 -- Inserção na tabela aluno [20 dados nessa tabela]
-INSERT INTO aluno (nome, data_nascimento, telefone, email, cpf, cep, cidade, estado) 
+INSERT INTO aluno (nome, data_nascimento, telefone, email, cpf, cep, cidade, estado , idCurso) 
 VALUES 
-('Maria Souza', '2000-05-10', '+55 123456789', 'maria@example.com', '123.456.789-10', '12345-678', 'São Paulo', 'SP'),
-('João Santos', '2001-03-15', '+55 987654321', 'joao@example.com', '987.654.321-10', '54321-876', 'Rio de Janeiro', 'RJ'),
-('Ana Oliveira', '1999-12-20', '+55 987654321', 'ana@example.com', '456.123.789-10', '98765-432', 'Belo Horizonte', 'MG'),
-('Pedro Lima', '2002-07-05', '+55 987654321', 'pedro@example.com', '789.123.456-10', '87654-321', 'Porto Alegre', 'RS'),
-('Carla Silva', '2000-01-30', '+55 987654321', 'carla@example.com', '321.456.789-10', '76543-210', 'Recife', 'PE'),
-('Lucas Oliveira', '1998-11-25', '+55 987654321', 'lucas@example.com', '654.789.123-10', '65432-109', 'Salvador', 'BA'),
-('Mariana Souza', '2001-09-15', '+55 987654321', 'mariana@example.com', '234.567.891-10', '54321-098', 'Curitiba', 'PR'),
-('Rafael Lima', '1999-06-10', '+55 987654321', 'rafael@example.com', '987.654.321-10', '43210-987', 'Fortaleza', 'CE'),
-('Gabriel Santos', '2000-04-05', '+55 987654321', 'gabriel@example.com', '345.678.912-10', '32109-876', 'Manaus', 'AM'),
-('Amanda Oliveira', '2002-08-20', '+55 987654321', 'amanda@example.com', '789.123.456-10', '21098-765', 'Vitória', 'ES'),
-('Rodrigo Silva', '1998-10-25', '+55 987654321', 'rodrigo@example.com', '456.789.123-10', '10987-654', 'Natal', 'RN'),
-('Laura Lima', '2001-11-15', '+55 987654321', 'laura@example.com', '567.891.234-10', '09876-543', 'Brasília', 'DF'),
-('Guilherme Souza', '2000-02-05', '+55 987654321', 'guilherme@example.com', '678.912.345-10', '98765-432', 'Florianópolis', 'SC'),
-('Fernanda Santos', '1999-07-30', '+55 987654321', 'fernanda@example.com', '891.234.567-10', '87654-321', 'Porto Velho', 'RO'),
-('Julia Oliveira', '2002-12-25', '+55 987654321', 'julia@example.com', '123.456.789-10', '76543-210', 'Campo Grande', 'MS'),
-('Bruno Lima', '1998-05-15', '+55 987654321', 'bruno@example.com', '234.567.891-10', '65432-109', 'João Pessoa', 'PB'),
-('Luana Souza', '2000-09-10', '+55 987654321', 'luana@example.com', '345.678.912-10', '54321-098', 'Teresina', 'PI'),
-('Marcos Santos', '1999-04-05', '+55 987654321', 'marcos@example.com', '456.789.123-10', '43210-987', 'Belém', 'PA'),
-('Camila Oliveira', '2001-08-20', '+55 987654321', 'camila@example.com', '567.891.234-10', '32109-876', 'Maceió', 'AL'),
-('Felipe Silva', '1998-10-25', '+55 987654321', 'felipe@example.com', '678.912.345-10', '10987-654', 'Goiânia', 'GO');
-
-
--- Inserção na tabela curso [3 dados nessa tabela]
-INSERT INTO curso (nome, matriz_curricular, duração, idAluno, idTurma) 
-VALUES 
-('Engenharia de Software', 'Engenharia de Requisitos, Desenvolvimento Ágil, Testes de Software', '4 anos', 1, 1),
-('Ciência de Dados', 'Mineração de Dados, Estatística, Machine Learning', '4 anos', 2, 2),
-('Segurança da Informação', 'Criptografia, Análise de Riscos, Ethical Hacking', '4 anos', 3, 3);
+('Maria Souza', '2000-05-10', '+55 123456789', 'maria@example.com', '123.456.789-10', '12345-678', 'São Paulo', 'SP',1),
+('João Santos', '2001-03-15', '+55 987654321', 'joao@example.com', '987.654.321-10', '54321-876', 'Rio de Janeiro', 'RJ',1),
+('Ana Oliveira', '1999-12-20', '+55 987654321', 'ana@example.com', '456.123.789-10', '98765-432', 'Belo Horizonte', 'MG',1),
+('Pedro Lima', '2002-07-05', '+55 987654321', 'pedro@example.com', '789.123.456-10', '87654-321', 'Porto Alegre', 'RS',2),
+('Carla Silva', '2000-01-30', '+55 987654321', 'carla@example.com', '321.456.789-10', '76543-210', 'Recife', 'PE',3),
+('Lucas Oliveira', '1998-11-25', '+55 987654321', 'lucas@example.com', '654.789.123-10', '65432-109', 'Salvador', 'BA',3),
+('Mariana Souza', '2001-09-15', '+55 987654321', 'mariana@example.com', '234.567.891-10', '54321-098', 'Curitiba', 'PR',2),
+('Rafael Lima', '1999-06-10', '+55 987654321', 'rafael@example.com', '987.654.321-10', '43210-987', 'Fortaleza', 'CE',3),
+('Gabriel Santos', '2000-04-05', '+55 987654321', 'gabriel@example.com', '345.678.912-10', '32109-876', 'Manaus', 'AM',1),
+('Amanda Oliveira', '2002-08-20', '+55 987654321', 'amanda@example.com', '789.123.456-10', '21098-765', 'Vitória', 'ES',3),
+('Rodrigo Silva', '1998-10-25', '+55 987654321', 'rodrigo@example.com', '456.789.123-10', '10987-654', 'Natal', 'RN',1),
+('Laura Lima', '2001-11-15', '+55 987654321', 'laura@example.com', '567.891.234-10', '09876-543', 'Brasília', 'DF',2),
+('Guilherme Souza', '2000-02-05', '+55 987654321', 'guilherme@example.com', '678.912.345-10', '98765-432', 'Florianópolis', 'SC',2),
+('Fernanda Santos', '1999-07-30', '+55 987654321', 'fernanda@example.com', '891.234.567-10', '87654-321', 'Porto Velho', 'RO',3),
+('Julia Oliveira', '2002-12-25', '+55 987654321', 'julia@example.com', '123.456.789-10', '76543-210', 'Campo Grande', 'MS',1),
+('Bruno Lima', '1998-05-15', '+55 987654321', 'bruno@example.com', '234.567.891-10', '65432-109', 'João Pessoa', 'PB',1),
+('Luana Souza', '2000-09-10', '+55 987654321', 'luana@example.com', '345.678.912-10', '54321-098', 'Teresina', 'PI',1),
+('Marcos Santos', '1999-04-05', '+55 987654321', 'marcos@example.com', '456.789.123-10', '43210-987', 'Belém', 'PA',1),
+('Camila Oliveira', '2001-08-20', '+55 987654321', 'camila@example.com', '567.891.234-10', '32109-876', 'Maceió', 'AL',1),
+('Felipe Silva', '1998-10-25', '+55 987654321', 'felipe@example.com', '678.912.345-10', '10987-654', 'Goiânia', 'GO',1);
 
 
 -- Inserção na tabela matricula [tabela de junção do dados da tabela Turma e Aluno]
