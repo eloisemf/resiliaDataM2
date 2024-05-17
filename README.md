@@ -19,19 +19,19 @@ Este projeto visa modernizar o processo de armazenamento e gerenciamento de dado
   - 1.6. **Entidade: Curso**
       - Atributos: idCurso (Chave Primária), matriz_curricular, duração, idTurma (Chave Estrangeira referencia Turma), idAluno (Chave Estrangeira referencia Aluno).<br>
   - 1.7. **Entidade: Grade Curricular**
-      - Atributos: idCurso (Chave Estrangeira referencia Curso), idModulo (Chave Estrangeira referencia Modulo), quantidade.<br>
+      - Atributos: idCurso (Chave Estrangeira referencia Curso), idModulo (Chave Estrangeira referencia Modulo), quantidade.<br>      
 
 perguntas ?
 
-1: Selecionanar a  quantidade total de estudantes cadastrados no banco
+1. Qual é o número total de alunos matriculados em cada turma?
 
-2: Selecionar quais pessoas facilitadoras atuam em mais de uma turma
+2. Quais são os facilitadores que estão ministrando aulas para um determinado
 
-3: Crie uma view que selecione a porcentagem de estudantes com status de evasão agrupados por turma
+3: Quais alunos são da região da sudeste
 
-4: Crie um trigger para ser disparado quando o atributo status de um estudante for atualizado e inserir um novo dado em uma tabela do log
+4. Quais são os alunos matriculados em determinado módulo de um curso e em qual 
 
-5: Quais alunos são da região da sudeste
+5. Quais são os cursos que um determinado aluno está matriculado incluindo informações
 
 6: Quais alunos podem ser jovem  aprendiz com 24 anos
 
