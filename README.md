@@ -21,7 +21,7 @@ Este projeto visa modernizar o processo de armazenamento e gerenciamento de dado
   - 1.7. **Entidade: Grade Curricular**
       - Atributos: idCurso (Chave Estrangeira referencia Curso), idModulo (Chave Estrangeira referencia Modulo), quantidade.<br>
    
-        Modelo do Banco de Dados
+       ## Modelo do Banco de Dados
         ![resilia-data-triggers (1)](https://github.com/eloisemf/resiliaDataM2/assets/113704939/351acc5f-3fa9-444d-a7bb-69eb2b27815d)
 
 
@@ -51,7 +51,7 @@ Este projeto visa modernizar o processo de armazenamento e gerenciamento de dado
 ![3](https://github.com/eloisemf/resiliaDataM2/assets/113704939/589f7945-7b50-4626-950b-c1ecf0267675)
 
 
-4: Informação  completa sobre o que determinado aluno esta cursando;
+4: Quais os alunos que estão cadastrados em uma ou mais grade curricular;
 
 ![4](https://github.com/eloisemf/resiliaDataM2/assets/113704939/f900d194-1127-4a52-bd23-f914672fff80)
 
