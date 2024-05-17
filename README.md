@@ -32,15 +32,15 @@ atributos;
 
 Perguntas estratégica do trabalho ?
 
-1. Qual é o número total de alunos matriculados em cada turma?
+1: Qual é o número total de alunos matriculados em cada turma?
 
-2. Quais são os facilitadores que estão ministrando aulas para um determinado
+2: Quais são os facilitadores que estão ministrando aulas para um determinado
 
 3: Quais alunos são da região da sudeste
 
-4. Quais são os alunos matriculados em determinado módulo de um curso e em qual 
+4: Quais são os alunos matriculados em determinado módulo de um curso e em qual 
 
-5. Quais são os cursos que um determinado aluno está matriculado incluindo informações
+5: Quais são os cursos que um determinado aluno está matriculado incluindo informações
 
 6: Quais alunos podem ser jovem  aprendiz com 24 anos
 
